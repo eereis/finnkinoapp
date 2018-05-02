@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Finnkino show listing</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body onload="displayAllMovies()">
+    <div class="container-fluid">
+      <div>
+<h1>FINNKINO MOVIES</h1>
+      </div>
+      <select class="form-control" id="theatre" onchange="displayMovies()"></select>
+      <select class="form-control" id="time" onchange="displayMovies()"></select>
+      <input class="form-control" id="search" onkeyup="searchTable()" type="text" placeholder="Search movie name...">
+      <br><br>
+      <div class="hidden">
+      <table id="movies">
+      </table>
+    </div>
+    </div>
+  </body>
+</html>

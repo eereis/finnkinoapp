@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  background: black;
+}
+h1 {
+  color: #fdca00;
+}
+#movies {
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+table {
+    width:80%;
+    background-color: black;
+}
+table, th, td {
+    border: 2px solid #fdca00;
+    border-collapse: collapse;
+    color: white;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+    color: white;
+
+}
+.hidden {
+  display: none;
+}
+img {
+  padding-right: 100px;
+}
+#movieCol {
+  text-align: left;
+  padding-left: 50px;
+}
+.form-control {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline;
+}
