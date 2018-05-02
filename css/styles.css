@@ -14,7 +14,12 @@ h1 {
 }
 table {
     width:80%;
-    background-color: black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-spacing: 0;
+
+
 }
 table, th, td {
     border: 2px solid #fdca00;

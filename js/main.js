@@ -92,8 +92,6 @@ function displayAllMovies() {
       "</td></tr>";
     }
     document.getElementById("movies").innerHTML = table;
-    var movieImg = document.createElement("img");
-    movieImg.src = x[i].getElementsByTagName("EventSmallImagePortrait");
 }
 }
 }
