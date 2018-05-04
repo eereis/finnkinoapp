@@ -48,3 +48,39 @@ img {
   margin-right: auto;
   display: inline;
 }
+@media screen and (max-width: 768px) {
+  #movies {
+    width: 95%;
+  }
+  img {
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .form-control {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 3px;
+  }
+}
+@media screen and (max-width: 375px) {
+  img {
+    padding-right: 0;
+  }
+  #movieCol {
+    padding-left: 28px;
+  }
+  #movies {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #movieCol {
+    padding-left: 10px;
+  }
+  #movies {
+    margin-top: 0px;
+  }
+}
